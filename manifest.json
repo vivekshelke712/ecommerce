@@ -1,0 +1,30 @@
+{
+    "name": "Vivek",
+    "display": "standalone",
+    "icons": [{
+            "src": "./assets/images/logo-48x48.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "./assets/images/logo-72x72.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "./assets/images/logo-96x96.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./assets/images/logo-144x144.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "./assets/images/logo-192x192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./assets/images/logo-512x512.png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/ecommerce"
+}
