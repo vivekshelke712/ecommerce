@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <style>
+        .nav {
+            background-color: rgb(69, 69, 230);
+            height: 75px;
+        }
+        
+        .right-canvas {
+            background-color: rgb(69, 69, 230);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="alert alert-primary mb-0 collapse" id="nav-search">
+        <div class="container">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" />
+                <button type="button" class="btn btn-primary">
+            <i class="bi bi-search"></i>
+          </button>
+            </div>
+            <h6 class="my-3 fw-bold">Quick Start</h6>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="d-block mt-2 text-decoration-none" href=""> > link 1</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > link 2</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > link 3</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > link 4</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > link 5</a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="d-block mt-2 text-decoration-none" href=""> > link 1</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > link 2</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > link 3</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > link 4</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > link 5</a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/e/g/w/axl-intel-celeron-newly-launched-thin-light-laptop-14-1-inch-hd-original-imaghksyvhshpzry.jpeg?q=70" alt="" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <h4>Featured Item</h4>
+                                    <p>Lorem ipsum Lorem, ipsum dolor.</p>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">
+                      Shop now
+                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg nav justify-content-between">
+        <div class="container">
+            <a class="navbar-brand text-light fw-bold" href="#">SKILLHUB</a>
+
+            <div>
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+            Menu
+          </button>
+                <ul class="dropdown-menu alert alert-primary w-100"></ul>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse flex-row justify-content-end" id="navbarNavAltMarkup">
+                <div class="d-flex">
+                    <div>
+                        <button type="button" class="btn btn-outline-light">
+                <i
+                  class="bi bi-search"
+                  data-bs-target="#nav-search"
+                  data-bs-toggle="collapse"
+                ></i>
+              </button>
+                        <button type="button" class="btn btn-outline-light" data-bs-target="#right-canvas" data-bs-toggle="offcanvas">
+                <i class="bi bi-cart"></i>
+              </button>
+                        <button type="button" class="btn btn-light" data-bs-target="#left-canvas" data-bs-toggle="offcanvas">
+                Login
+                <i class="bi bi-lock"></i>
+              </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End  -->
+
+    <div class="offcanvas offcanvas-end" id="right-canvas">
+        <div class="offcanvas-header right-canvas">
+            <h5 class="offcanvas-title text-white" id="offcanvasExampleLabel">
+                Cart
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body alert alert-primary mb-0">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/e/g/w/axl-intel-celeron-newly-launched-thin-light-laptop-14-1-inch-hd-original-imaghksyvhshpzry.jpeg?q=70" alt="" />
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>DellXps 13 Pro</h6>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <strong>99,999</strong>
+                        </div>
+                    </div>
+                    <h6 class="text-success">
+                        you will save <strong> 1,47,888 </strong>on this order
+                    </h6>
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-success">
+                <i class="bi bi-download"></i>
+              </button>
+                        <button type="button" class="btn btn-outline-warning">
+                <i class="bi bi-heart"></i>
+              </button>
+                        <button type="button" class="btn btn-outline-danger">
+                <i class="bi bi-trash"></i>
+              </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/e/g/w/axl-intel-celeron-newly-launched-thin-light-laptop-14-1-inch-hd-original-imaghksyvhshpzry.jpeg?q=70" alt="" />
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>DellXps 13 Pro</h6>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <h6>99,999</h6>
+                        </div>
+                    </div>
+                    <!-- <h6 class="text-success">you will save 147888 on this order</h6> -->
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-success">
+                <i class="bi bi-download"></i>
+              </button>
+                        <button type="button" class="btn btn-outline-warning">
+                <i class="bi bi-heart"></i>
+              </button>
+                        <button type="button" class="btn btn-outline-danger">
+                <i class="bi bi-trash"></i>
+              </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-body fw-semibold">
+                    <p data-bs-target="#btn-grp" data-bs-toggle="collapse">
+                        I have a Coupen code
+                    </p>
+                    <div id="btn-grp">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Apply Coupen Code" aria-label="Username" aria-describedby="basic-addon1" />
+                            <button type="button" class="btn btn-primary">Apply</button>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4">price</div>
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4">2,30,985</div>
+                        <div class="col-sm-4">Estimated Tax</div>
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4">2,30,985</div>
+                        <br /><br />
+                        <hr />
+                        <div class="col-sm-4">Total</div>
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4">2,75,985</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Started -->
+
+    <div class="offcanvas offcanvas-end" id="left-canvas">
+        <div class="card">
+            <div class="card-header alert alert-primary">Login</div>
+            <div class="card-body">
+                <div>
+                    <label for="email" class="form-label">Enter Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter Your Email" />
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please choose a username.</div>
+                </div>
+                <div class="mt-2">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter Your Password" />
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please choose a username.</div>
+                </div>
+                <button type="button" class="btn btn-primary w-100 mt-3">
+            Login
+          </button>
+                <br />
+                <p class="text-center my-2">OR</p>
+
+                <button type="button" class="btn btn-outline-primary w-100">
+            Login with Google
+          </button>
+                <p class="text-center mt-3">
+                    Dont Have Account? <a href="#">Create Account</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- login end -->
+
+    <!-- hero Section started -->
+    <div class="carousel slide" data-bs-interval="1000" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center gap-4 mt-4">
+                    <!-- image div -->
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/41ZN0vVuyUL._SY300_SX300_QL70_FMwebp_.jpg" alt="" />
+                    </div>
+                    <!-- Details div -->
+                    <div>
+                        <h2>Dell XPS 14 Pro</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <p>Startin from <strong>$99,999</strong></p>
+                        <button type="button" class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center gap-4 mt-4">
+                    <!-- image div -->
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/41ZN0vVuyUL._SY300_SX300_QL70_FMwebp_.jpg" alt="" />
+                    </div>
+                    <!-- Details div -->
+                    <div>
+                        <h2>Dell XPS 14 Pro</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <p>Startin from <strong>$99,999</strong></p>
+                        <button type="button" class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section end -->
+    <nav class="navbar navbar-expand-lg nav mt-3">
+        <div class="container">
+            <div class="d-flex align-items-center gap-4">
+                <i class="bi bi-credit-card text-light fs-1"></i>
+                <div class="text-light">
+                    <h6>Secure CheckOut</h6>
+                    <h6>Gurnteed safe Checkout</h6>
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-4">
+                <i class="bi bi-truck text-light fs-1"></i>
+                <div class="text-light">
+                    <h6>Secure checkout</h6>
+                    <h6>Gurnteed safe Checkout</h6>
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-4">
+                <i class="bi bi-box text-light fs-1"></i>
+                <div class="text-light">
+                    <h6>Secure CheckOut</h6>
+                    <h6>Gurnteed safe Checkout</h6>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- second nav end  -->
+
+    <div class="container">
+        <!-- feature products -->
+        <div class="d-flex justify-content-between mt-3 align-items-center">
+            <p class="fs-1">Featured products</p>
+            <button type="button" class="btn btn-primary btn-sm">View All</button>
+        </div>
+
+        <!-- Main Hero Section -->
+        <div class="row mt-4">
+            <div class="col col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div>
+                                <img class="img-fluid" src="https://m.media-amazon.com/images/I/41ZN0vVuyUL._SY300_SX300_QL70_FMwebp_.jpg" alt="" />
+                            </div>
+                            <div class="flex-column w-50 justify-content-between mt-4">
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/knoxnrk0/computer/c/0/h/na-gaming-laptop-asus-original-imag2bbyzsfagafn.jpeg?q=70" alt="" />
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/kz4gh3k0/computer/m/n/c/fx506lh-hn258ws-gaming-laptop-asus-original-imagb7hfbzr3j9xr.jpeg?q=70" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer alert alert-primary mb-0">
+                        <div class="d-flex justify-content-between">
+                            <h6><strong>MSI Zeta </strong></h6>
+                            <h6>Starting <strong>87,475</strong></h6>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary w-100 mt-3">
+                Shop Now
+              </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div>
+                                <img class="img-fluid" src="https://m.media-amazon.com/images/I/41ZN0vVuyUL._SY300_SX300_QL70_FMwebp_.jpg" alt="" />
+                            </div>
+                            <div class="flex-column w-50 justify-content-between mt-4">
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/knoxnrk0/computer/c/0/h/na-gaming-laptop-asus-original-imag2bbyzsfagafn.jpeg?q=70" alt="" />
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/kz4gh3k0/computer/m/n/c/fx506lh-hn258ws-gaming-laptop-asus-original-imagb7hfbzr3j9xr.jpeg?q=70" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer alert alert-primary mb-0">
+                        <div class="d-flex justify-content-between">
+                            <h6><strong>MSI Zeta </strong></h6>
+                            <h6>Starting <strong>87,475</strong></h6>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary w-100 mt-3">
+                Shop Now
+              </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div>
+                                <img class="img-fluid" src="https://m.media-amazon.com/images/I/41ZN0vVuyUL._SY300_SX300_QL70_FMwebp_.jpg" alt="" />
+                            </div>
+                            <div class="flex-column w-50 justify-content-between mt-4">
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/knoxnrk0/computer/c/0/h/na-gaming-laptop-asus-original-imag2bbyzsfagafn.jpeg?q=70" alt="" />
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/kz4gh3k0/computer/m/n/c/fx506lh-hn258ws-gaming-laptop-asus-original-imagb7hfbzr3j9xr.jpeg?q=70" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer alert alert-primary mb-0">
+                        <div class="d-flex justify-content-between">
+                            <h6><strong>MSI Zeta </strong></h6>
+                            <h6>Starting <strong>87,475</strong></h6>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary w-100 mt-3">
+                Shop Now
+              </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div>
+                                <img class="img-fluid" src="https://m.media-amazon.com/images/I/41ZN0vVuyUL._SY300_SX300_QL70_FMwebp_.jpg" alt="" />
+                            </div>
+                            <div class="flex-column w-50 justify-content-between mt-4">
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/knoxnrk0/computer/c/0/h/na-gaming-laptop-asus-original-imag2bbyzsfagafn.jpeg?q=70" alt="" />
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/kz4gh3k0/computer/m/n/c/fx506lh-hn258ws-gaming-laptop-asus-original-imagb7hfbzr3j9xr.jpeg?q=70" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer alert alert-primary mb-0">
+                        <div class="d-flex justify-content-between">
+                            <h6><strong>MSI Zeta </strong></h6>
+                            <h6>Starting <strong>87,475</strong></h6>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary w-100 mt-3">
+                Shop Now
+              </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div>
+                                <img class="img-fluid" src="https://m.media-amazon.com/images/I/41ZN0vVuyUL._SY300_SX300_QL70_FMwebp_.jpg" alt="" />
+                            </div>
+                            <div class="flex-column w-50 justify-content-between mt-4">
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/knoxnrk0/computer/c/0/h/na-gaming-laptop-asus-original-imag2bbyzsfagafn.jpeg?q=70" alt="" />
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/kz4gh3k0/computer/m/n/c/fx506lh-hn258ws-gaming-laptop-asus-original-imagb7hfbzr3j9xr.jpeg?q=70" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer alert alert-primary mb-0">
+                        <div class="d-flex justify-content-between">
+                            <h6><strong>MSI Zeta </strong></h6>
+                            <h6>Starting <strong>87,475</strong></h6>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary w-100 mt-3">
+                Shop Now
+              </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div>
+                                <img class="img-fluid" src="https://m.media-amazon.com/images/I/41ZN0vVuyUL._SY300_SX300_QL70_FMwebp_.jpg" alt="" />
+                            </div>
+                            <div class="flex-column w-50 justify-content-between mt-4">
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/knoxnrk0/computer/c/0/h/na-gaming-laptop-asus-original-imag2bbyzsfagafn.jpeg?q=70" alt="" />
+                                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/416/416/kz4gh3k0/computer/m/n/c/fx506lh-hn258ws-gaming-laptop-asus-original-imagb7hfbzr3j9xr.jpeg?q=70" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer alert alert-primary mb-0">
+                        <div class="d-flex justify-content-between">
+                            <h6><strong>MSI Zeta </strong></h6>
+                            <h6>Starting <strong>87,475</strong></h6>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary w-100 mt-3">
+                Shop Now
+              </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Last Section -->
+
+        <div class="mt-5">
+            <h5 class="text-center mb-3">What's Trending</h5>
+            <div class="row">
+                <div class="col col-sm-4 border-success">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge text-bg-success">Most Popular</span>
+                                <i class="bi bi-heart"></i>
+                            </div>
+                            <div class="mx-auto d-flex flex-column">
+                                <img class="img-fluid mx-auto mt-4" src="https://m.media-amazon.com/images/I/319ydbu7wtL._SY300_SX300_QL70_FMwebp_.jpg" alt="" height="100px" width="100px" />
+                                <h6 class="text-center">
+                                    Accessories <br /> Router <br /> $1278
+                                </h6>
+                                <div class="d-flex justify-content-center text-warning">
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-half"></i> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge text-bg-success">Most popular</span>
+                                <i class="bi bi-heart"></i>
+                            </div>
+                            <div class="mx-auto d-flex flex-column">
+                                <img class="img-fluid mx-auto mt-4" src="https://rukminim1.flixcart.com/image/416/416/xif0q/laptop-skin-decal/o/t/g/full-body-laptop-skin-for-14-to-15-6-inch-laptop-grey-bars-on-original-imagpyydqu5u8wgg.jpeg?q=70" alt="" height="70px" width="70px" />
+                                <h6 class="text-center">
+                                    Accessories <br /> Router <br /> $1278
+                                </h6>
+                                <div class="d-flex justify-content-center text-warning">
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-half"></i> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span class="badge text-bg-danger">Most Popular</span>
+                                <i class="bi bi-heart"></i>
+                            </div>
+                            <div class="mx-auto d-flex flex-column">
+                                <img class="img-fluid mx-auto mt-4" src="https://rukminim1.flixcart.com/image/416/416/kij6f0w0/internal-hard-drive/r/v/3/wd-wds480g2g0a-original-imafyay3yhqnhvek.jpeg?q=70" alt="" height="120px" width="120px" />
+                                <h6 class="text-center">
+                                    Accessories <br /> Router <br /> $1278
+                                </h6>
+                                <div class="d-flex justify-content-center text-warning">
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-fill"></i> </span>
+                                    <span><i class="bi bi-star-half"></i> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-3 d-flex justify-content-center">
+            <button type="button" class="btn btn-outline-primary btn-sm">
+          View All Product
+        </button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
